@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Rafid Mahmud</title>
+</head>
+
+<style>
+    h1 {text-align: center}
+    .button1 {background-color: #c6104a;}
+    .button2 {background-color: #c104a8;}
+    .button3 {background-color: #041dc1;}
+    .button4 {background-color: #43c104;}
+</style>
+<body style="background-color:black;color:white;">
+
+<script>
+
+    function otherWindow(buttonClass) {
+        switch (buttonClass) {
+            case 'button1':
+                window.close()
+                window.open("http://localhost:63342/test%20cs/About%20me.html")
+                break;
+            case 'button2':
+                window.close()
+                window.open("http://localhost:63342/test%20cs/Work%20Experience.html?_ijt=bhsiee9u2pdvae7ju9m7kfb445")
+                break;
+            case 'button3':
+                window.close()
+                window.open("http://localhost:63342/test%20cs/Education.html?_ijt=pnt1t8flng4p101l4vik81dn63");
+                break;
+            case 'button4':
+                window.close()
+                window.open("http://localhost:63342/test%20cs/My%20Channel.html")
+        }
+    }
+</script>
+<h1>Rafid Mahmud</h1>
+
+
+<center>
+<button onclick="otherWindow('button1')" class="button1">About me</button>
+<button onclick="otherWindow('button2')" class="button2">Work Experience</button>
+<button onclick="otherWindow('button3')" class="button3">Education</button>
+    <button onclick="otherWindow('button4')" class="button4">My Channel</button>
+
+</center>
+
+
+
+
+
+
+
+
+</body>
+</html>
